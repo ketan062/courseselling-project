@@ -22,7 +22,7 @@ app.post("/course/purchase",function(req,res){
         mess:"signup endpoint"
     }))
 })
-app.get("/courses",function(req,res){
+app.get("/course/preview",function(req,res){
     res.json(({
         mess:"signup endpoint"
     }))
