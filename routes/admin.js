@@ -11,3 +11,22 @@ adminRouter.post("/signin",function(req,res){
         mess:"signup endpoint"
     }))
 })
+adminRouter.post("/course",function(req,res){
+    res.json(({
+        mess:"signup endpoint"
+    }))
+})
+adminRouter.put("/course",function(req,res){
+    res.json(({
+        mess:"signup endpoint"
+    }))
+})
+adminRouter.get("/course/bulk",function(req,res){
+    res.json(({
+        mess:"signup endpoint"
+    }))
+})
+
+module.exports ={
+    adminRouter:adminRouter
+}
